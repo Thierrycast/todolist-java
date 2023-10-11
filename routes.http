@@ -1,0 +1,15 @@
+#@name get
+GET http://localhost:8080/
+
+###
+
+#@name post
+POST http://localhost:8080/users/
+Content-Type: application/json
+{
+    "username": "thierrycastro",
+    "name":"Thierry",
+    "password":"123456",
+}
+
+###
